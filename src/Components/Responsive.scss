@@ -1,0 +1,20 @@
+$small-screen : 640px;
+$medium-screen: 768px;
+$large-screen: 1024px;
+$xl-screen: 1280px;
+$xxl-screen: 1580px;
+
+@media screen and (max-width :$small-screen){
+
+}
+
+
+@media screen and (min-width :$small-screen ) and (max-width :$medium-screen ){
+
+}
+// aama have te je classs aapya hoi e pramane kari nakh xxxl sudhi
+// thay jashe ke have
+// pn aa to badhay ma use krvi pdse ne marew to and classess to ghan khara 6e 
+// responsive aakhi banavani hoi to badha j class nakhva padene
+// kk bhai i will try my best 
+// ok
