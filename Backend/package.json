@@ -1,12 +1,18 @@
 {
   "name": "backend",
   "version": "1.0.0",
+<<<<<<< HEAD
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
+=======
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 04929f12054c1ec29124eb4f0cffce0307df687e
   },
   "keywords": [],
   "author": "",

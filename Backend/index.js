@@ -6,11 +6,14 @@ import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
 
+<<<<<<< HEAD
 import clientRoutes from "./routes/client.js";
 import generalRoutes from "./routes/general.js";
 import managementRoutes from "./routes/management.js";
 import salesRoutes from "./routes/sales.js";
 
+=======
+>>>>>>> 04929f12054c1ec29124eb4f0cffce0307df687e
 
 /* CONFIGURATION */
 dotenv.config();
@@ -27,6 +30,7 @@ app.use(cors());
 app.use("/client", clientRoutes);
 app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
+<<<<<<< HEAD
 app.use("/sales", salesRoutes);
 
 /* MONGOOSE SET UP */
@@ -36,3 +40,6 @@ mongoose.connect(process.env.MONGO_URL)
         app.listen(PORT, () => console.log(`server is listing on port: ${PORT}`))
     })
     .catch((error) => console.log(`error:${error} did not connect`))
+=======
+app.use("/sales", salesRoutes);
+>>>>>>> 04929f12054c1ec29124eb4f0cffce0307df687e
